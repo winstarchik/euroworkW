@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FileText, Search, CheckCircle2, Plane, Home, Briefcase } from 'lucide-react';
+import { FileText, Search, CheckCircle2, Bus, Home, Briefcase } from 'lucide-react';
 
 const steps = [
   {
@@ -32,10 +32,10 @@ const steps = [
     duration: '2–4 недели',
   },
   {
-    icon: Plane,
+    icon: Bus,
     step: '05',
-    title: 'Переезд в Германию',
-    desc: 'Встречаем вас в аэропорту, помогаем добраться до места жительства. Вас уже ждут жильё и рабочее место.',
+    title: 'Переезд',
+    desc: 'Встречаем вас на вокзале, помогаем добраться до места жительства. Вас уже ждут жильё и рабочее место.',
     duration: 'День приезда',
   },
   {
