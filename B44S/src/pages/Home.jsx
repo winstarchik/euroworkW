@@ -4,6 +4,10 @@ import HeroSection from '../components/landing/HeroSection';
 import StatsBar from '../components/landing/StatsBar';
 import AboutSection from '../components/landing/AboutSection';
 import ServicesSection from '../components/landing/ServicesSection';
+import VacanciesSection from '../components/landing/VacanciesSection';
+import ProcessSection from '../components/landing/ProcessSection';
+import SalaryCalculator from '../components/landing/SalaryCalculator';
+import FAQSection from '../components/landing/FAQSection';
 import ReviewsSection from '../components/landing/ReviewsSection';
 import CTASection from '../components/landing/CTASection';
 import ContactSection from '../components/landing/ContactSection';
@@ -25,6 +29,10 @@ export default function Home() {
       <StatsBar />
       <AboutSection aboutImage={IMAGES.about} />
       <ServicesSection images={IMAGES} />
+      <VacanciesSection />
+      <ProcessSection />
+      <SalaryCalculator />
+      <FAQSection />
       <ReviewsSection />
       <CTASection />
       <ContactSection />
