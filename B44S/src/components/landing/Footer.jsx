@@ -10,9 +10,8 @@ const quickLinks = [
 ];
 
 const team = [
-  { name: 'Semyon Morokhovets', role: 'Генеральный директор', telegram: '@SemyonGenD', href: 'https://t.me/SemyonGenD' },
-  { name: 'Alex Makarov', role: 'Координатор по подбору', telegram: '@Aleksmakaer', href: 'https://t.me/Aleksmakaer' },
-  { name: 'Gleb Shishkow', role: 'Менеджер по трудоустройству', telegram: '@glebshishkow', href: 'https://t.me/glebshishkow' },
+  { name: 'Алексей Макаров', role: 'Старший менеджер', telegram: '@Aleksmakaer', href: 'https://t.me/Aleksmakaer' },
+  { name: 'Алексей', role: 'Координатор по подбору персонала', telegram: '@aleksok7', href: 'https://t.me/aleksok7' },
 ];
 
 const TelegramIcon = () => (
