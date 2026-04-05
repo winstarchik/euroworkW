@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button';
 const navLinks = [
   { label: 'Главная', href: '#hero' },
   { label: 'О нас', href: '#about' },
-  { label: 'Услуги', href: '#services' },
-  { label: 'Отзывы', href: '#reviews' },
+  { label: 'Вакансии', href: '#vacancies' },
+  { label: 'Как выехать', href: '#process' },
+  { label: 'FAQ', href: '#faq' },
   { label: 'Контакты', href: '#contact' },
 ];
 
@@ -32,11 +33,11 @@ export default function Header() {
       <div className="hidden md:block bg-foreground text-primary-foreground">
         <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between text-sm">
           <div className="flex items-center gap-6">
-            <a href="https://t.me/SemyonGenD" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="https://t.me/Aleksmakaer" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
               <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
               </svg>
-              @SemyonGenD
+              @Aleksmakaer
             </a>
           </div>
           <span className="text-primary-foreground/70">Пн – Вс: 10:00 – 24:00</span>
@@ -94,11 +95,11 @@ export default function Header() {
               </button>
             ))}
             <div className="pt-3 border-t border-border">
-              <a href="https://t.me/SemyonGenD" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground px-4 py-2">
+              <a href="https://t.me/Aleksmakaer" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground px-4 py-2">
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
                 </svg>
-                Telegram: @SemyonGenD
+                Telegram: @Aleksmakaer
               </a>
             </div>
           </div>
